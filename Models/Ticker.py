@@ -1,0 +1,22 @@
+class Ticker:
+
+    def __init__(self, dict):
+        self.symbol = dict["symbol"]
+        self.priceChange = dict["priceChange"]
+        self.priceChangePercent = dict["priceChangePercent"]
+        self.weightedAvgPrice = dict["weightedAvgPrice"]
+        self.prevClosePrice = dict["prevClosePrice"]
+        self.lastPrice = dict["lastPrice"]
+        self.lastQty = dict["lastQty"]
+        self.bidPrice = dict["bidPrice"]
+        self.askPrice = dict["askPrice"]
+        self.openPrice = dict["openPrice"]
+        self.highPrice = dict["highPrice"]
+        self.lowPrice = dict["lowPrice"]
+        self.volume = dict["volume"]
+        self.quoteVolume = dict["quoteVolume"]
+        self.openTime = dict["openTime"]
+        self.closeTime = dict["closeTime"]
+        self.firstId = dict["firstId"]
+        self.lastId = dict["lastId"]
+        self.count = dict["count"]

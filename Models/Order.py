@@ -1,0 +1,15 @@
+class Order:
+    def __init__(self, dict):
+        self.symbol = dict["LTCBTC"]
+        self.orderId = dict["orderId"]
+        self.clientOrderId = dict["clientOrderId"]
+        self.price = dict["price"]
+        self.origQty = dict["origQty"]
+        self.executedQty = dict["executedQty"]
+        self.status = dict["status"]
+        self.timeInForce = dict["timeInForce"]
+        self.type = dict["type"]
+        self.side = dict["side"]
+        self.stopPrice = dict["stopPrice"]
+        self.icebergQty = dict["icebergQty"]
+        self.time = dict["time"]
